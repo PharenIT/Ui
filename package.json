@@ -3,20 +3,24 @@
   "version": "0.0.6",
   "description": "Pharen UI – Modern Vue 3 component library inspired by Shadcn, built for Tailwind v4.",
   "type": "module",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/index.d.ts",
       "default": "./dist/index.es.js"
     },
     "./styles.css": "./dist/ui.css"
   },
+  "bin": {
+    "pharen-ui": "./scripts/cli.js"
+  },
   "files": [
-    "dist"
+    "dist",
+    "scripts/cli.js"
   ],
   "scripts": {
     "dev": "vite",
@@ -29,7 +33,8 @@
     "tailwind",
     "shadcn",
     "components",
-    "pharen"
+    "pharen",
+    "cli"
   ],
   "author": "Pharen",
   "license": "MIT",
@@ -48,6 +53,7 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-autoplay": "^8.6.0",
+    "kleur": "^4.1.5",
     "lodash-es": "^4.17.21",
     "reka-ui": "^2.5.1",
     "sortablejs": "^1.15.6",
