@@ -67,5 +67,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@pharen/ui": "^0.0.1"
   }
 }
