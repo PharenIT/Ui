@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 // Importiere deine UI Library
-import '@pharen/ui/styles.css'
+import './assets/base.css'
 
 import PharenUI from '@pharen/ui'
 

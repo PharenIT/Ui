@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@pharen/ui':
-        specifier: ^0.0.7
-        version: 0.0.7(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))
+        specifier: ^0.0.8
+        version: 0.0.8(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
@@ -637,8 +637,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@pharen/ui@0.0.7':
-    resolution: {integrity: sha512-vLMq0ixOh9VxhSR6tbOfjuL8ti+eNSsjsdKq4JT1lcSMXyQV2vzaRSiH5ekwoqZRV6c5wKLgqkzP8bVwWbGouA==}
+  '@pharen/ui@0.0.8':
+    resolution: {integrity: sha512-2E/l1phOy6JInOo9j+RqXOhawEZr+ZnDRRmzsxYtuM6m4/8vyB1CSlEaTaY36xOgSf7G0KTKSRqqBHjDyVNxjA==}
     hasBin: true
     peerDependencies:
       tailwindcss: ^4.1.5
@@ -2526,7 +2526,7 @@ snapshots:
   '@oxlint/win32-x64@1.11.2':
     optional: true
 
-  '@pharen/ui@0.0.7(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))':
+  '@pharen/ui@0.0.8(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))':
     dependencies:
       tailwindcss: 4.1.14
       vue: 3.5.22(typescript@5.9.3)
