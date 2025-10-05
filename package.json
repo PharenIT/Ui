@@ -19,13 +19,12 @@
     "pharen-ui": "./dist/cli.js"
   },
   "files": [
-    "dist",
-    "scripts/cli.js"
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
     "build": "vite build && pnpm run build:cli",
-    "build:cli": "esbuild scripts/cli.ts --bundle --platform=node --outfile=dist/cli.js --banner:js='#!/usr/bin/env node'",
+    "build:cli": "esbuild scripts/cli.ts --bundle --platform=node --format=esm --outfile=dist/cli.js --banner:js='#!/usr/bin/env node'",
     "lint": "eslint src --ext .ts,.vue"
   },
   "keywords": [
