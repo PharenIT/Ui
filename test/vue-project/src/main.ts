@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// Importiere deine UI-Library
+// Importiere Pharen UI
 import '@pharen/ui/styles.css'
-import { UiButton } from '@pharen/ui'
+import PharenUI from '@pharen/ui' // oder { UiButton } für gezielte Imports
 
 const app = createApp(App)
-app.component('UiButton', UiButton)
+app.use(PharenUI) // registriert alle Komponenten automatisch
 app.mount('#app')
