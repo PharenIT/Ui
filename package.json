@@ -23,10 +23,11 @@
     "scripts/cli.js"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext .ts,.vue"
-  },
+  "dev": "vite",
+  "build": "vite build && pnpm run build:cli",
+  "build:cli": "esbuild scripts/cli.ts --bundle --platform=node --outfile=dist/cli.js --banner:js='#!/usr/bin/env node'",
+  "lint": "eslint src --ext .ts,.vue"
+},
   "keywords": [
     "vue",
     "ui-library",
@@ -39,8 +40,8 @@
   "author": "Pharen",
   "license": "MIT",
   "peerDependencies": {
-    "vue": "^3.4.0",
-    "tailwindcss": "^4.1.5"
+    "tailwindcss": "^4.1.5",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
@@ -53,6 +54,7 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-autoplay": "^8.6.0",
+    "esbuild": "^0.25.10",
     "kleur": "^4.1.5",
     "lodash-es": "^4.17.21",
     "reka-ui": "^2.5.1",
