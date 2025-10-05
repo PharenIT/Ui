@@ -1,6 +1,6 @@
 {
   "name": "@pharen/ui",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Pharen UI – Modern Vue 3 component library inspired by Shadcn, built for Tailwind v4.",
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -15,9 +15,9 @@
     },
     "./styles.css": "./dist/ui.css"
   },
- "bin": {
-  "pharen-ui": "./dist/cli.js"
-},
+  "bin": {
+    "pharen-ui": "./dist/cli.js"
+  },
   "files": [
     "dist",
     "scripts/cli.js"
