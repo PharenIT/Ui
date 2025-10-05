@@ -15,9 +15,9 @@
     },
     "./styles.css": "./dist/ui.css"
   },
-  "bin": {
-    "pharen-ui": "./scripts/cli.js"
-  },
+ "bin": {
+  "pharen-ui": "./dist/cli.js"
+},
   "files": [
     "dist",
     "scripts/cli.js"
