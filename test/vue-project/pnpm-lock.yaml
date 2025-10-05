@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@pharen/ui':
+        specifier: ^0.0.6
+        version: 0.0.6(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
@@ -623,6 +626,12 @@ packages:
     resolution: {integrity: sha512-eSATaCIUwdh+t9gu9xoETjh+0PYwjVSLtnZ20XakKNjvee4KmQbWXCxXyA1vz1E0qxiUX/fYqsaOHueIwQ2LVA==}
     cpu: [x64]
     os: [win32]
+
+  '@pharen/ui@0.0.6':
+    resolution: {integrity: sha512-eCdRiSQUyCrudV6GjLNo0bkpknaA8KgczeZE6VKdFCKROnfP7AAYBejPa4xOsGrAFX+8mENlJcWK8BV7T+XMmw==}
+    peerDependencies:
+      tailwindcss: ^4.1.5
+      vue: ^3.4.0
 
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
@@ -1645,6 +1654,9 @@ packages:
     resolution: {integrity: sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
+  tailwindcss@4.1.14:
+    resolution: {integrity: sha512-b7pCxjGO98LnxVkKjaZSDeNuljC4ueKUddjENJOADtubtdo8llTaJy7HwBMeLNSSo2N5QIAgklslK1+Ir8r6CA==}
+
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
@@ -2309,6 +2321,11 @@ snapshots:
 
   '@oxlint/win32-x64@1.11.2':
     optional: true
+
+  '@pharen/ui@0.0.6(tailwindcss@4.1.14)(vue@3.5.22(typescript@5.9.3))':
+    dependencies:
+      tailwindcss: 4.1.14
+      vue: 3.5.22(typescript@5.9.3)
 
   '@pkgr/core@0.2.9': {}
 
@@ -3351,6 +3368,8 @@ snapshots:
   synckit@0.11.11:
     dependencies:
       '@pkgr/core': 0.2.9
+
+  tailwindcss@4.1.14: {}
 
   tinyglobby@0.2.15:
     dependencies:
