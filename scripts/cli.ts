@@ -1,11 +1,13 @@
-#!/usr/bin/env node
-import { promises as fs } from "fs"
+import fs from "fs/promises"
 import path from "path"
 import kleur from "kleur"
 import { execSync } from "child_process"
 import { fileURLToPath } from "url"
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
+// Replaces __dirname safely in ESM + TypeScript
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
 const root = process.cwd()
 const [command, name] = process.argv.slice(2)
 
@@ -45,7 +47,7 @@ async function installDependencies() {
   try {
     execSync(`pnpm add -D ${allDeps.join(" ")}`, { stdio: "inherit" })
     logSuccess("Dependencies installed successfully.")
-  } catch (err) {
+  } catch {
     logError("Failed to install dependencies.")
   }
 }
@@ -75,14 +77,14 @@ async function init() {
   // === Copy styles ===
   logStep("Setting up styles...")
   const libStyles = path.join(__dirname, "../src/styles/index.css")
-  const targetDir = path.join(root, "src", "styles")
+  const targetDir = path.join(root, "src/styles")
   const targetFile = path.join(targetDir, "styles.css")
   await fs.mkdir(targetDir, { recursive: true })
 
   try {
     await fs.copyFile(libStyles, targetFile)
     logSuccess("Created src/styles/styles.css")
-  } catch (e) {
+  } catch {
     logError("Could not copy styles/index.css")
   }
 
@@ -98,7 +100,7 @@ async function init() {
       await fs.copyFile(path.join(libUtilsDir, file), path.join(targetUtilsDir, file))
     }
     logSuccess("Copied utils.")
-  } catch (e) {
+  } catch {
     logError("Could not copy utils.")
   }
 
