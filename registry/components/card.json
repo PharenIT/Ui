@@ -1,0 +1,18 @@
+{
+  "name": "card",
+  "description": "",
+  "files": [
+    "Card.vue",
+    "CardContent.vue",
+    "CardDescription.vue",
+    "CardFooter.vue",
+    "CardHeader.vue",
+    "CardHeading.vue",
+    "CardTable.vue",
+    "CardTitle.vue",
+    "CardToolbar.vue",
+    "index.ts"
+  ],
+  "from": "src/components/card",
+  "to": "src/components"
+}

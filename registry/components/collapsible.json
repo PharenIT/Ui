@@ -1,0 +1,12 @@
+{
+  "name": "collapsible",
+  "description": "",
+  "files": [
+    "Collapsible.vue",
+    "CollapsibleContent.vue",
+    "CollapsibleTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/collapsible",
+  "to": "src/components"
+}

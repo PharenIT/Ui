@@ -1,0 +1,10 @@
+{
+  "name": "checkbox",
+  "description": "",
+  "files": [
+    "Checkbox.vue",
+    "index.ts"
+  ],
+  "from": "src/components/checkbox",
+  "to": "src/components"
+}

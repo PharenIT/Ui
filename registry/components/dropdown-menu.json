@@ -1,0 +1,23 @@
+{
+  "name": "dropdown-menu",
+  "description": "",
+  "files": [
+    "DropdownMenu.vue",
+    "DropdownMenuCheckboxItem.vue",
+    "DropdownMenuContent.vue",
+    "DropdownMenuGroup.vue",
+    "DropdownMenuItem.vue",
+    "DropdownMenuLabel.vue",
+    "DropdownMenuRadioGroup.vue",
+    "DropdownMenuRadioItem.vue",
+    "DropdownMenuSeparator.vue",
+    "DropdownMenuShortcut.vue",
+    "DropdownMenuSub.vue",
+    "DropdownMenuSubContent.vue",
+    "DropdownMenuSubTrigger.vue",
+    "DropdownMenuTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/dropdown-menu",
+  "to": "src/components"
+}

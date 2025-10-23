@@ -1,0 +1,13 @@
+{
+  "name": "tabs",
+  "description": "",
+  "files": [
+    "Tabs.vue",
+    "TabsContent.vue",
+    "TabsList.vue",
+    "TabsTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/tabs",
+  "to": "src/components"
+}

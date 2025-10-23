@@ -1,0 +1,17 @@
+{
+  "name": "pagination",
+  "description": "",
+  "files": [
+    "Pagination.vue",
+    "PaginationContent.vue",
+    "PaginationEllipsis.vue",
+    "PaginationFirst.vue",
+    "PaginationItem.vue",
+    "PaginationLast.vue",
+    "PaginationNext.vue",
+    "PaginationPrevious.vue",
+    "index.ts"
+  ],
+  "from": "src/components/pagination",
+  "to": "src/components"
+}

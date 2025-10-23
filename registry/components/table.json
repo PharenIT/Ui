@@ -1,0 +1,17 @@
+{
+  "name": "table",
+  "description": "",
+  "files": [
+    "Table.vue",
+    "TableBody.vue",
+    "TableCaption.vue",
+    "TableCell.vue",
+    "TableFooter.vue",
+    "TableHead.vue",
+    "TableHeader.vue",
+    "TableRow.vue",
+    "index.ts"
+  ],
+  "from": "src/components/table",
+  "to": "src/components"
+}

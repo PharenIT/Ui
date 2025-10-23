@@ -1,0 +1,20 @@
+{
+  "name": "combobox",
+  "description": "",
+  "files": [
+    "Combobox.vue",
+    "ComboboxAnchor.vue",
+    "ComboboxEmpty.vue",
+    "ComboboxGroup.vue",
+    "ComboboxInput.vue",
+    "ComboboxItem.vue",
+    "ComboboxItemIndicator.vue",
+    "ComboboxList.vue",
+    "ComboboxSeparator.vue",
+    "ComboboxTrigger.vue",
+    "ComboboxViewport.vue",
+    "index.ts"
+  ],
+  "from": "src/components/combobox",
+  "to": "src/components"
+}

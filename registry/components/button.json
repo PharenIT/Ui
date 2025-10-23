@@ -1,7 +1,10 @@
 {
   "name": "button",
-  "description": "Primary action button with variants.",
-  "files": ["UiButton.vue", "index.ts"],
+  "description": "",
+  "files": [
+    "Button.vue",
+    "index.ts"
+  ],
   "from": "src/components/button",
   "to": "src/components"
 }

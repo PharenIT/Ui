@@ -1,0 +1,20 @@
+{
+  "name": "select",
+  "description": "",
+  "files": [
+    "Select.vue",
+    "SelectContent.vue",
+    "SelectGroup.vue",
+    "SelectItem.vue",
+    "SelectItemText.vue",
+    "SelectLabel.vue",
+    "SelectScrollDownButton.vue",
+    "SelectScrollUpButton.vue",
+    "SelectSeparator.vue",
+    "SelectTrigger.vue",
+    "SelectValue.vue",
+    "index.ts"
+  ],
+  "from": "src/components/select",
+  "to": "src/components"
+}

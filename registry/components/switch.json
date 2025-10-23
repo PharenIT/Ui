@@ -1,0 +1,10 @@
+{
+  "name": "switch",
+  "description": "",
+  "files": [
+    "Switch.vue",
+    "index.ts"
+  ],
+  "from": "src/components/switch",
+  "to": "src/components"
+}

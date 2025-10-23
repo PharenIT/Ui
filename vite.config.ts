@@ -5,6 +5,11 @@ import path from "path"
 import { promises as fs } from "fs"
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
   plugins: [
     vue(),
     dts({

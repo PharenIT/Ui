@@ -1,0 +1,18 @@
+{
+  "name": "command",
+  "description": "",
+  "files": [
+    "Command.vue",
+    "CommandDialog.vue",
+    "CommandEmpty.vue",
+    "CommandGroup.vue",
+    "CommandInput.vue",
+    "CommandItem.vue",
+    "CommandList.vue",
+    "CommandSeparator.vue",
+    "CommandShortcut.vue",
+    "index.ts"
+  ],
+  "from": "src/components/command",
+  "to": "src/components"
+}

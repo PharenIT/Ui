@@ -1,0 +1,24 @@
+{
+  "name": "context-menu",
+  "description": "",
+  "files": [
+    "ContextMenu.vue",
+    "ContextMenuCheckboxItem.vue",
+    "ContextMenuContent.vue",
+    "ContextMenuGroup.vue",
+    "ContextMenuItem.vue",
+    "ContextMenuLabel.vue",
+    "ContextMenuPortal.vue",
+    "ContextMenuRadioGroup.vue",
+    "ContextMenuRadioItem.vue",
+    "ContextMenuSeparator.vue",
+    "ContextMenuShortcut.vue",
+    "ContextMenuSub.vue",
+    "ContextMenuSubContent.vue",
+    "ContextMenuSubTrigger.vue",
+    "ContextMenuTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/context-menu",
+  "to": "src/components"
+}

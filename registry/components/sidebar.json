@@ -1,0 +1,33 @@
+{
+  "name": "sidebar",
+  "description": "",
+  "files": [
+    "Sidebar.vue",
+    "SidebarContent.vue",
+    "SidebarFooter.vue",
+    "SidebarGroup.vue",
+    "SidebarGroupAction.vue",
+    "SidebarGroupContent.vue",
+    "SidebarGroupLabel.vue",
+    "SidebarHeader.vue",
+    "SidebarInput.vue",
+    "SidebarInset.vue",
+    "SidebarMenu.vue",
+    "SidebarMenuAction.vue",
+    "SidebarMenuBadge.vue",
+    "SidebarMenuButton.vue",
+    "SidebarMenuButtonChild.vue",
+    "SidebarMenuItem.vue",
+    "SidebarMenuSkeleton.vue",
+    "SidebarMenuSub.vue",
+    "SidebarMenuSubButton.vue",
+    "SidebarMenuSubItem.vue",
+    "SidebarProvider.vue",
+    "SidebarRail.vue",
+    "SidebarSeparator.vue",
+    "SidebarTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/sidebar",
+  "to": "src/components"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "carousel",
+  "description": "",
+  "files": [
+    "Carousel.vue",
+    "CarouselContent.vue",
+    "CarouselItem.vue",
+    "CarouselNext.vue",
+    "CarouselPrevious.vue",
+    "index.ts"
+  ],
+  "from": "src/components/carousel",
+  "to": "src/components"
+}

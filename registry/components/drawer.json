@@ -1,0 +1,18 @@
+{
+  "name": "drawer",
+  "description": "",
+  "files": [
+    "Drawer.vue",
+    "DrawerClose.vue",
+    "DrawerContent.vue",
+    "DrawerDescription.vue",
+    "DrawerFooter.vue",
+    "DrawerHeader.vue",
+    "DrawerOverlay.vue",
+    "DrawerTitle.vue",
+    "DrawerTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/drawer",
+  "to": "src/components"
+}

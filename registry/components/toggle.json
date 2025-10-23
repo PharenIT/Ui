@@ -1,0 +1,10 @@
+{
+  "name": "toggle",
+  "description": "",
+  "files": [
+    "Toggle.vue",
+    "index.ts"
+  ],
+  "from": "src/components/toggle",
+  "to": "src/components"
+}

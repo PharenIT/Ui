@@ -1,0 +1,13 @@
+{
+  "name": "tooltip",
+  "description": "",
+  "files": [
+    "Tooltip.vue",
+    "TooltipContent.vue",
+    "TooltipProvider.vue",
+    "TooltipTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/tooltip",
+  "to": "src/components"
+}

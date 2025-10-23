@@ -1,0 +1,13 @@
+{
+  "name": "Accordion",
+  "description": "",
+  "files": [
+    "Accordion.vue",
+    "AccordionContent.vue",
+    "AccordionItem.vue",
+    "AccordionTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/Accordion",
+  "to": "src/components"
+}

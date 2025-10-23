@@ -1,0 +1,17 @@
+{
+  "name": "navigation-menu",
+  "description": "",
+  "files": [
+    "NavigationMenu.vue",
+    "NavigationMenuContent.vue",
+    "NavigationMenuIndicator.vue",
+    "NavigationMenuItem.vue",
+    "NavigationMenuLink.vue",
+    "NavigationMenuList.vue",
+    "NavigationMenuTrigger.vue",
+    "NavigationMenuViewport.vue",
+    "index.ts"
+  ],
+  "from": "src/components/navigation-menu",
+  "to": "src/components"
+}

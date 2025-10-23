@@ -1,0 +1,13 @@
+{
+  "name": "avatar",
+  "description": "",
+  "files": [
+    "Avatar.vue",
+    "AvatarFallback.vue",
+    "AvatarImage.vue",
+    "AvatarUser.vue",
+    "index.ts"
+  ],
+  "from": "src/components/avatar",
+  "to": "src/components"
+}

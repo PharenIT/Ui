@@ -1,0 +1,11 @@
+{
+  "name": "scroll-area",
+  "description": "",
+  "files": [
+    "ScrollArea.vue",
+    "ScrollBar.vue",
+    "index.ts"
+  ],
+  "from": "src/components/scroll-area",
+  "to": "src/components"
+}

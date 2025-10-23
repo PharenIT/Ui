@@ -1,0 +1,10 @@
+{
+  "name": "input",
+  "description": "",
+  "files": [
+    "Input.vue",
+    "index.ts"
+  ],
+  "from": "src/components/input",
+  "to": "src/components"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sheet",
+  "description": "",
+  "files": [
+    "Sheet.vue",
+    "SheetClose.vue",
+    "SheetContent.vue",
+    "SheetDescription.vue",
+    "SheetFooter.vue",
+    "SheetHeader.vue",
+    "SheetPortal.vue",
+    "SheetTitle.vue",
+    "SheetTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/sheet",
+  "to": "src/components"
+}

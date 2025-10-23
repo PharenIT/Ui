@@ -1,0 +1,20 @@
+{
+  "name": "gantt",
+  "description": "",
+  "files": [
+    "GanttFeatureItem.vue",
+    "GanttFeatureList.vue",
+    "GanttFeatureListGroup.vue",
+    "GanttHeader.vue",
+    "GanttMarker.vue",
+    "GanttProvider.vue",
+    "GanttSidebar.vue",
+    "GanttSidebarGroup.vue",
+    "GanttSidebarItem.vue",
+    "GanttTimeline.vue",
+    "GanttToday.vue",
+    "index.ts"
+  ],
+  "from": "src/components/gantt",
+  "to": "src/components"
+}

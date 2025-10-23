@@ -1,0 +1,12 @@
+{
+  "name": "badge",
+  "description": "",
+  "files": [
+    "Badge.vue",
+    "BadgeButton.vue",
+    "BadgeDot.vue",
+    "index.ts"
+  ],
+  "from": "src/components/badge",
+  "to": "src/components"
+}

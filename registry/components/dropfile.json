@@ -1,0 +1,10 @@
+{
+  "name": "dropfile",
+  "description": "",
+  "files": [
+    "DropFile.vue",
+    "index.ts"
+  ],
+  "from": "src/components/dropfile",
+  "to": "src/components"
+}

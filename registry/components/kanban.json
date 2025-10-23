@@ -1,0 +1,13 @@
+{
+  "name": "kanban",
+  "description": "",
+  "files": [
+    "KanbanBoard.vue",
+    "KanbanCard.vue",
+    "KanbanCards.vue",
+    "KanbanHeader.vue",
+    "KanbanProvider.vue"
+  ],
+  "from": "src/components/kanban",
+  "to": "src/components"
+}

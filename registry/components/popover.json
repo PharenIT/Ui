@@ -1,0 +1,13 @@
+{
+  "name": "popover",
+  "description": "",
+  "files": [
+    "Popover.vue",
+    "PopoverAnchor.vue",
+    "PopoverContent.vue",
+    "PopoverTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/popover",
+  "to": "src/components"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "separator",
+  "description": "",
+  "files": [
+    "Separator.vue",
+    "index.ts"
+  ],
+  "from": "src/components/separator",
+  "to": "src/components"
+}

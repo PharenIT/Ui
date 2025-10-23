@@ -1,0 +1,15 @@
+{
+  "name": "alert",
+  "description": "",
+  "files": [
+    "Alert.vue",
+    "AlertContent.vue",
+    "AlertDescription.vue",
+    "AlertIcon.vue",
+    "AlertTitle.vue",
+    "AlertToolbar.vue",
+    "index.ts"
+  ],
+  "from": "src/components/alert",
+  "to": "src/components"
+}

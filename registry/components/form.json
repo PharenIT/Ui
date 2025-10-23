@@ -1,0 +1,14 @@
+{
+  "name": "form",
+  "description": "",
+  "files": [
+    "FormControl.vue",
+    "FormDescription.vue",
+    "FormItem.vue",
+    "FormLabel.vue",
+    "FormMessage.vue",
+    "index.ts"
+  ],
+  "from": "src/components/form",
+  "to": "src/components"
+}

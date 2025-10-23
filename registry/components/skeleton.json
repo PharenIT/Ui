@@ -1,0 +1,10 @@
+{
+  "name": "skeleton",
+  "description": "",
+  "files": [
+    "Skeleton.vue",
+    "index.ts"
+  ],
+  "from": "src/components/skeleton",
+  "to": "src/components"
+}

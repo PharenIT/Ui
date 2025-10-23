@@ -1,0 +1,10 @@
+{
+  "name": "textarea",
+  "description": "",
+  "files": [
+    "Textarea.vue",
+    "index.ts"
+  ],
+  "from": "src/components/textarea",
+  "to": "src/components"
+}

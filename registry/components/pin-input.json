@@ -1,0 +1,13 @@
+{
+  "name": "pin-input",
+  "description": "",
+  "files": [
+    "PinInput.vue",
+    "PinInputGroup.vue",
+    "PinInputSeparator.vue",
+    "PinInputSlot.vue",
+    "index.ts"
+  ],
+  "from": "src/components/pin-input",
+  "to": "src/components"
+}

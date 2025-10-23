@@ -1,0 +1,19 @@
+{
+  "name": "dialog",
+  "description": "",
+  "files": [
+    "Dialog.vue",
+    "DialogClose.vue",
+    "DialogContent.vue",
+    "DialogDescription.vue",
+    "DialogFooter.vue",
+    "DialogHeader.vue",
+    "DialogOverlay.vue",
+    "DialogScrollContent.vue",
+    "DialogTitle.vue",
+    "DialogTrigger.vue",
+    "index.ts"
+  ],
+  "from": "src/components/dialog",
+  "to": "src/components"
+}
