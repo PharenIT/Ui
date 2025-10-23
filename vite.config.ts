@@ -39,7 +39,8 @@ export default defineConfig({
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
-      external: ["vue", "@vueuse/core", "@iconify/vue"],
+      // bundle @vueuse/core into the library so consumers don't hit export-mismatch
+      external: ["vue", "@iconify/vue"],
       output: {
         exports: "named",
         globals: { vue: "Vue" },

@@ -1,0 +1,14 @@
+{
+  "name": "pharen-ui-cli-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "ts-node ../scripts/registry.ts",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "vite": "^7.1.9",
+    "vue": "^3.5.22"
+  }
+}
