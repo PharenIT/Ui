@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "@pharen/ui/styles.css";
+
+/*
+	Minimal consumer entry: import Tailwind's runtime CSS and the shipped Pharen UI CSS.
+	No tailwind.config.* or postcss.config.* required by your request.
+*/
