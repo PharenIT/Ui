@@ -6,3 +6,9 @@ Two test projects included:
 Notes:
 - The library test project assumes you have `@pharen/ui@0.0.15` published to npm (it is).
 - If you want to test the library locally without publishing, use `pnpm -w --filter pharen-ui-lib-test add ../..` to install the workspace package.
+
+
+// @ts-expect-error
+
+
+pnpm build && npm version patch -m "chore(release): v%s" && pnpm publish --access public && git push origin main && git push origin --tags
